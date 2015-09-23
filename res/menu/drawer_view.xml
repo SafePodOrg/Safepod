@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="First" />
+        <item
+            android:id="@+id/nav_safe_zone_map"
+            android:icon="@drawable/ic_map_white_24dp"
+            android:title="First" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_group_white_24dp"
+            android:title="Second" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_applications_white_24dp"
+            android:title="Third" />
+    </group>
+</menu>

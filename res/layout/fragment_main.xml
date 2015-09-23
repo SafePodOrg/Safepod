@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.safepodapp.MainActivity$PlaceholderFragment"
+    android:background="@color/dark" >
+
+    <TextView
+        android:id="@+id/textClockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="TextClock"
+        android:textColor="@color/light"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/date_time_set_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textClockView"
+        android:fontFamily="josephine-sans"
+        android:textColor="@color/light"
+        android:text="Set a new return time"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_time_set_button"
+        android:fontFamily="josephine-sans"
+        android:textColor="@color/light"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Home"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/going_non_home_loc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/locationTextView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="josephine-sans"
+        android:textColor="@color/light"
+        android:text="Going somewhere else?"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<!--     <EditText
+        android:id="@+id/search_address_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/going_non_home_loc_button"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="josephine-sans"
+        android:textColor="@color/light"
+        android:ems="10"
+        android:textCursorDrawable="@xml/color_cursor"
+        android:inputType="textPostalAddress"
+        android:visibility="gone" />
+ -->
+    <Button
+        android:id="@+id/okay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="josephine-sans"
+        android:textColor="@color/light"
+        android:text="Done" />
+</RelativeLayout>

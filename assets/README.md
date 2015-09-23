@@ -1,0 +1,3 @@
+#Author attibution:
+
+"Coat of arms family de Bodin" by Entwurf: Ingo Bodin, in Zusammenarbeit mit H. C. Günther und den Mitgliedern des Forums der Gemeinschaft wappenführender Familien (GwF); Aufriß: Gerald Metter, Graz - Eigene Adaption. Licensed under Copyrighted free use via Wikimedia Commons - https://commons.wikimedia.org/wiki/File:Coat_of_arms_family_de_Bodin.png#/media/File:Coat_of_arms_family_de_Bodin.png
