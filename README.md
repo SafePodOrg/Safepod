@@ -10,4 +10,4 @@ SafePod is an open effort that aims to build a strong community of volunteers to
 
 * Email: safepodapp@gmail.com
 * Twitter: https://twitter.com/safe_pod
-* Github: https://github.com/prajitdas/safepodapp
+* Github: https://github.com/SafePodOrg/Safepod
